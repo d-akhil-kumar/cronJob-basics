@@ -1,0 +1,32 @@
+{
+  "name": "cronjob-basics",
+  "version": "1.0.0",
+  "description": "basic implementation of cron job",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-akhil-kumar/cronJob-basics.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "APIs",
+    "RESTful",
+    "CRON-JOB"
+  ],
+  "author": "D Akhil Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-akhil-kumar/cronJob-basics/issues"
+  },
+  "homepage": "https://github.com/d-akhil-kumar/cronJob-basics#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
